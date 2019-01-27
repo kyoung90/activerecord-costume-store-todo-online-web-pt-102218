@@ -2,7 +2,7 @@
 class HauntedHouses < ActiveRecord::Migration[4.2]
 
   def change
-    create_table :hounted_houses
+    create_table :haunted_houses
   end
 
 end
