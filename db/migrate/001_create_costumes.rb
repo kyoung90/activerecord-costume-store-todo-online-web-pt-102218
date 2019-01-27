@@ -13,7 +13,7 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
   def change
     create_table :costumes do |table|
       table.string :name
-      table.float :pirate
+      table.float :price
     end
   end
 end
